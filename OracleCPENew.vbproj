@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7EE849C-2015-454A-9ABD-65B1F6CDDE55}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>OracleCPENew</RootNamespace>
+    <AssemblyName>OracleCPENew</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/OracleCPENew/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OracleCPENew.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OracleCPENew.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>OracleCPENew.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\OracleCPENew.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>OracleCPENew.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OracleCPENew.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DBUtilities, Version=1.0.4071.33149, Culture=neutral" />
+    <Reference Include="FileHandler, Version=1.1.3302.26126, Culture=neutral" />
+    <Reference Include="HCL, Version=1.0.3293.22021, Culture=neutral" />
+    <Reference Include="HiCapEscalator, Version=1.0.4731.22964, Culture=neutral" />
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral" />
+    <Reference Include="Interop.Microsoft.Office.Core, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Logger, Version=1.0.4174.20071, Culture=neutral" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.5.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportMaker, Version=1.0.4239.1093, Culture=neutral" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlProcess.vb" />
+    <Compile Include="GlobalVariables.vb" />
+    <Compile Include="WFADOProcess.vb" />
+    <Compile Include="DbInterface.vb" />
+    <Compile Include="Global.vb" />
+    <Compile Include="LoginUtility.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OracleCPENew.Designer.vb">
+      <DependentUpon>OracleCPENew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OracleCPENew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oracle_CPEObjects.vb" />
+    <Compile Include="Oracle_Process.vb" />
+    <Compile Include="OrderDetails.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OracleCPENew.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OracleCPENew.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\CPE_Notifier.ini" />
+    <None Include="bin\Debug\DS1CPE.ini" />
+    <None Include="bin\Debug\DS1CPE_Local.ini" />
+    <None Include="bin\Debug\Environment.ini" />
+    <None Include="bin\Debug\HCL.ini" />
+    <None Include="bin\Debug\HCL_Local.ini" />
+    <None Include="bin\Debug\OracleCPENew.exe.config" />
+    <None Include="bin\Debug\OracleCPENew.vshost.exe.config" />
+    <None Include="bin\Debug\OracleCPENew.vshost.exe.manifest" />
+    <None Include="bin\Debug\ORAMTSCP12796.TRC" />
+    <None Include="bin\Debug\ORAMTSCP14416.TRC" />
+    <None Include="bin\Debug\ORAMTSCP15064.TRC" />
+    <None Include="bin\Debug\ORAMTSCP5540.TRC" />
+    <None Include="bin\Debug\ORAMTSCP6172.TRC" />
+    <None Include="bin\Debug\RepLocal.ini" />
+    <None Include="bin\Debug\sqlnet.log" />
+    <None Include="bin\x86\Debug\CPE_Notifier.ini" />
+    <None Include="bin\x86\Debug\DS1CPE.ini" />
+    <None Include="bin\x86\Debug\DS1CPE_Local.ini" />
+    <None Include="bin\x86\Debug\DS1CPE_Local_Original.ini" />
+    <None Include="bin\x86\Debug\Environment.ini" />
+    <None Include="bin\x86\Debug\HCL.ini" />
+    <None Include="bin\x86\Debug\HCL_Local.ini" />
+    <None Include="bin\x86\Debug\OracleCPENew.exe.config" />
+    <None Include="bin\x86\Debug\OracleCPENew.vshost.exe.config" />
+    <None Include="bin\x86\Debug\OracleCPENew.vshost.exe.manifest" />
+    <None Include="bin\x86\Debug\ORAMTSCP12796.TRC" />
+    <None Include="bin\x86\Debug\ORAMTSCP14416.TRC" />
+    <None Include="bin\x86\Debug\ORAMTSCP15064.TRC" />
+    <None Include="bin\x86\Debug\ORAMTSCP5540.TRC" />
+    <None Include="bin\x86\Debug\ORAMTSCP6172.TRC" />
+    <None Include="bin\x86\Debug\RepLocal.ini" />
+    <None Include="bin\x86\Release\OracleCPENew.exe.config" />
+    <None Include="bin\x86\Release\OracleCPENew.vshost.exe.config" />
+    <None Include="bin\x86\Release\OracleCPENew.vshost.exe.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSmartRumba">
+      <Guid>{0657E999-6437-4155-B991-95B05DAB1327}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SmartRumba">
+      <Guid>{0657E999-6437-4155-B991-95B05DAB1327}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AxInterop.SmartRumba.dll" />
+    <Content Include="bin\Debug\DBUtilities.dll" />
+    <Content Include="bin\Debug\DB_Error.txt" />
+    <Content Include="bin\Debug\FileHandler.dll" />
+    <Content Include="bin\Debug\HCL.dll" />
+    <Content Include="bin\Debug\HiCapEscalator.dll" />
+    <Content Include="bin\Debug\Interop.Excel.dll" />
+    <Content Include="bin\Debug\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="bin\Debug\Interop.Scripting.dll" />
+    <Content Include="bin\Debug\Interop.SmartRumba.dll" />
+    <Content Include="bin\Debug\Logger.dll" />
+    <Content Include="bin\Debug\Microsoft.mshtml.dll" />
+    <Content Include="bin\Debug\Oracle.DataAccess.dll" />
+    <Content Include="bin\Debug\OracleCPENew.pdb" />
+    <Content Include="bin\Debug\OracleCPENew.xml" />
+    <Content Include="bin\Debug\ReportMaker.dll" />
+    <Content Include="bin\x86\Debug\AxInterop.SmartRumba.dll" />
+    <Content Include="bin\x86\Debug\DBUtilities.dll" />
+    <Content Include="bin\x86\Debug\DB_Error.txt" />
+    <Content Include="bin\x86\Debug\FileHandler.dll" />
+    <Content Include="bin\x86\Debug\HCL.dll" />
+    <Content Include="bin\x86\Debug\HiCapEscalator.dll" />
+    <Content Include="bin\x86\Debug\Interop.Excel.dll" />
+    <Content Include="bin\x86\Debug\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="bin\x86\Debug\Interop.SmartRumba.dll" />
+    <Content Include="bin\x86\Debug\Logger.dll" />
+    <Content Include="bin\x86\Debug\Microsoft.mshtml.dll" />
+    <Content Include="bin\x86\Debug\Oracle.DataAccess.dll" />
+    <Content Include="bin\x86\Debug\Oracle.ManagedDataAccess.dll" />
+    <Content Include="bin\x86\Debug\OracleCPENew.exe" />
+    <Content Include="bin\x86\Debug\OracleCPENew.pdb" />
+    <Content Include="bin\x86\Debug\OracleCPENew.vshost.exe" />
+    <Content Include="bin\x86\Debug\ReportMaker.dll" />
+    <Content Include="bin\x86\Debug\stdole.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
